@@ -108,7 +108,7 @@ a.text-sm.leading-6.text-color-primario {
     position: absolute;
     width: 100px;
     height: 100px;
-    top: 20%;
+    top: 15%;
     left: 8%;
     z-index: 0;
     border-radius: 50%;
@@ -119,7 +119,7 @@ a.text-sm.leading-6.text-color-primario {
     position: absolute;
     width: 150px;
     height: 150px;
-    top: 30%;
+    top: 18%;
     right: 14%;
     z-index: 0;
     border-radius: 50%;
@@ -130,7 +130,7 @@ a.text-sm.leading-6.text-color-primario {
     position: absolute;
     width: 150px;
     height: 150px;
-    top: 70%;
+    top: 60%;
     right: 40%;
     z-index: 0;
     border-radius: 50%;
@@ -141,7 +141,7 @@ a.text-sm.leading-6.text-color-primario {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 50%;
+    top: 30%;
     right: 50%;
     z-index: 0;
     border-radius: 50%;
@@ -152,7 +152,7 @@ a.text-sm.leading-6.text-color-primario {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 60%;
+    top: 40%;
     right: 40%;
     z-index: 0;
     border-radius: 50%;
@@ -173,6 +173,7 @@ a.text-sm.leading-6.text-color-primario {
 .flip-card {
     /* background-color: transparent; */
     width: 100%;
+    height: 325px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
@@ -201,7 +202,7 @@ a.text-sm.leading-6.text-color-primario {
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #000;
+    background-color: #fff;
     color: black;
   }  
   /* Style the back side */
